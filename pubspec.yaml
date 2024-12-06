@@ -1,0 +1,54 @@
+name: bams_production_service_apps
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^0.13.2
+  qr_code_scanner: ^1.0.1
+  permission_handler: ^8.2.6
+
+  rxdart: ^0.27.2
+  disposebag: ^1.0.0+1
+  shared_preferences: ^2.0.8
+  sqflite: ^2.0.2+1
+  path_provider: ^2.0.5
+  connectivity: ^3.0.6
+  provider: ^6.0.0
+  fluttertoast: ^8.0.8
+  flutter_barcode_scanner: ^2.0.0
+  multi_select_flutter: ^4.0.0
+  flutter_bloc: ^7.3.3
+  intl: ^0.17.0
+  dio: ^4.0.4
+  art_sweetalert: ^0.0.5
+
+  cupertino_icons: ^1.0.6
+  package_info_plus: ^8.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Bold.ttf
+        - asset: assets/fonts/Raleway-Italic.ttf
+          style: italic
